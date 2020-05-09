@@ -16,7 +16,7 @@ This code isn't complete yet. Here are the plans:
   * for example, the initial system might return [di̯ente] where as the upgrades system might return [di̯en̪te], signifying the dental-assimilation (dentalization?) of the /n/ due to the /t/ that proceeds it
 
 * (3) upgrade the system yet again so that, instead of just returning individual words, it will also return entire phrases/sentences. 
-  * (This sounds a lot more straightforward than it is. It is not as simple as iterating over a string split into a list of words, because there are also rules that govern how words 'chain' together, or syllabize when they are placed next to one another. As a matter of fact, this is likely what causes native English speakers to think of Spanish as sounding 'machine-gun-like.)
+  * (This sounds a lot more straightforward than it is. It is not as simple as iterating over a string split into a list of words, because there are also rules that govern how words 'chain' together, or in other words, how they break into syllables when they are placed next to one another. As a matter of fact, this is likely what causes native English speakers to think of Spanish as sounding 'machine-gun' like.)
   * an example of this would be: "Él y yo fuimos al parque" would become [e-li-ʝo-fu̯i-mo-sal-paɾ-ke]
   
 This will hopefully be the first of a lot of linguistics-based (specifically phonetics & phonology) repos that I develop on here.
