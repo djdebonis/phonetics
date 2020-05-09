@@ -9,7 +9,7 @@ The benefit of these consistent systems is not only ease-of-pronunciation, but a
 Part of the benefit to a system that transcribes text into IPA is it saves time in phonetics research. As a linguist conducting studies comparing the 'prescriptive' (what is deemed as 'correct') pronunciation against the 'descriptive' (what is actually said by participants), I will often have two sets of IPA, then compare them to see what results. However, if there was a program to develop the prescriptive list for me, it would definitely save me some time and energy, for it can take a long time to type out the little idiosyncracies of IPA. (Ofcourse, a program that does *everything* for me would be more ideal, but I'm taking this one step at a time.)
 
 This code isn't complete yet. Here are the plans:
-* (1) create a system that will take a string of a *single* word and return a list of strings, one being the 'prescriptive' transcription, and the others being common, accepted dialectical features.
+* (1) create a system that will take a string of a *single* word and return a list of strings, one being the 'prescriptive' transcription, and the others being common, accepted dialectical variations.
   * for example, it might take the string: "playa" and return a list of: [plaʝa], [plaja], [plaʃa], [plaʒa], & [plad͡ʒa].
   
 * (2) upgrade the system so that, instead of just returning the basic allophones, it also returns environment-dependent variations of the allophones.
